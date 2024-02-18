@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <main>
+        <section id="contenier">
+                <div id="cadastrar">
+                    <h1>criar uma conta</h1>
+                   <img src="img/google-plus.png" alt="" class="img">
+                   <img src="img/github.png" alt="" class="img">
+                   <img src="img/linkedin.png" alt="" class="img">
+                   <img src="img/simbolo-de-aplicativo-do-facebook.png" alt="" class="img"> <br>
+                    
+                   ou use seu email para cadastro
+
+                    <div class="input-class">
+                        <p><input type="text" name="name" id="txt" placeholder="Nome" class="input"></p>
+                        <p><input type="email" name="name" id="txte" placeholder="Email" class="input"></p>
+                        <p><input type="password" name="name" id="txtpas" placeholder="Senha" class="input"> </p>
+                        <p><input type="button" value="Cadastre-se" class="botao-principal"></p>
+                        <p><input type="button" value="já tem uma conta?Entrar" class="botao-mobile" onclick="mudarParaentrar()"></p>
+                        
+                    </div>
+                    
+                </div>
+                <div id="Entrar">
+                    <h1>Entrar</h1>
+                    <img src="img/google-plus.png" alt="" class="img">
+                    <img src="img/github.png" alt="" class="img">
+                    <img src="img/linkedin.png" alt="" class="img">
+                    <img src="img/simbolo-de-aplicativo-do-facebook.png" alt="" class="img"> <br>
+                        ou use sua senha e email
+                        <div class="input-class">
+                            <p><input type="email" name="name" id="txte2" placeholder="Email" class="input"></p>
+                            <p><input type="password" name="name" id="txtpas2" placeholder="Senha" class="input"></p>
+                            <a href="/"> Esqueceu sua senha?</a>
+                            <p><input type="button" value="Entrar" class="botao-principal"></p>
+                        </div>
+                </div>
+            <div class="form-box">
+                <div class="msg" >
+                    <div class="mensagem mens-right" id="msg-ent">
+                        <h1>Bem vindo de <span class="center">volta!</span></h1>
+                    <p>insira seus dados pessoais para usar <span class="center">todos os recusos do site</span></p>
+                    <input type="button" value="Entrar" class="Botao-mens" onclick="moverdiv()">
+                   </div>
+
+                   <div class="mensagem mens-left">
+                    <h1>Olá Amigo</h1>
+                <p>Registre-se com seus dados pessoais para <span class="center">usar todos os recursos do site</span> </p>
+                <input type="button" value="Cadastre-se" class="Botao-mens" onclick="moverdiv2()">
+                </div>
+             </div>
+        </section>
+    </main>
+        
+
+    <script src="java.js"></script>
+</body>
+</html> 
